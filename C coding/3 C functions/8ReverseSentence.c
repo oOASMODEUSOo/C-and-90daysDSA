@@ -12,7 +12,8 @@ void reverseSentence() {
     char c;
     scanf("%c", &c);
     if (c != '\n') {
-        reverseSentence();
+        printf("%u\n", &c);
+        reverseSentence(); //bsdk ka function pause ho jata hai yahan pe jab tk vo if block false ni ho jata
         printf("%c", c);
     }
 }
