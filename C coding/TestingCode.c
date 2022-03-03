@@ -32,5 +32,11 @@ int main(){
     printf("Value of variable %d and adress of variable %u\n", something, addressOf);
     printf("Adress of adress %u", &addressOf);
 
-    printf("%c", '%');
+    printf("%c\n", '%');
+
+    printf("%d\n", 5%2);
+    printf("%d\n", -5%2);
+    printf("%d\n", 5%-2);
 }
+
+
