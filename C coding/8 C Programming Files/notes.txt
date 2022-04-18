@@ -1,0 +1,42 @@
+modes to open file:
+1) r this basically open file to read the file 
+2) w used to write content in the file
+3) a is append mode and used to insert stuff at end of the file
+4) r+
+5) w+
+6) a+
+
+
+first we need to creat a pointer variable and we create it by "FILE *ptr"
+syntax to open file => ptr = fopen("file name", "mode")
+syntax to close the file => 
+
+
+different function in file handling inbuilt in C:
+1) fscanf 
+function = The fscanf() function reads data from the current position of the specified stream into the locations that are given by the entries in argument-list, if any.
+syntax = fscanf(<file pointer>, "%", &<name>)
+
+2) fprintf 
+function = the fprintf() function is used to print data into files
+syntax = fscanf(<file pointer>, "%", <input>)
+
+3) fgetc
+function = read character from file
+syntax = fgetc(<enter the value)
+
+4) fputc
+function = write the char in file
+syntax = f('c', prt) 
+
+5) fseek
+function = As the name suggests, fseek() seeks the cursor to the given record in the file.
+syntax = fseek(FILE * stream, long int offset, int whence);
+extra = where whence means 
+    SEEK_SET	Starts the offset from the beginning of the file.
+    SEEK_END	Starts the offset from the end of the file.
+    SEEK_CUR	Starts the offset from the current location of the cursor in the file.
+
+6) fgets = this is for the string values    
+
+7) fputs = this is for the string values to put the values in files
